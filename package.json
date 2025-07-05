@@ -1,0 +1,24 @@
+{
+  "name": "pagina_receita",
+  "version": "1.0.0",
+  "description": "Exercicio Frontend Mentor para fazer uma página de receitas",
+  "homepage": "https://github.com/o-matheus/front_mentor_ex1#readme",
+  "bugs": {
+    "url": "https://github.com/o-matheus/front_mentor_ex1/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/o-matheus/front_mentor_ex1.git"
+  },
+  "license": "ISC",
+  "author": "Matheus Aguiar",
+  "type": "commonjs",
+  "main": "index.js",
+  "scripts": {
+    "build": "sass src/styles/main.scss build/main.css --watch",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "devDependencies": {
+    "sass": "^1.89.2"
+  }
+}

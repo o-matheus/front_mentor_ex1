@@ -1,0 +1,23 @@
+@use 'variables';
+
+.instrucoes {
+    max-width: 650px;
+    width: 90%;
+    &__content {
+        &__list {
+            padding-inline-start: 20px;
+            &__item {
+                color: variables.$corTituloMedio;
+                font-weight: bold;
+                font-size: 20px;
+                .text {
+                    strong {
+                        color: #524D47;
+                    }
+                    margin-left: 20px;
+                    color: variables.$corTextoInstrucoes;
+                }
+            }
+        }
+    }
+}

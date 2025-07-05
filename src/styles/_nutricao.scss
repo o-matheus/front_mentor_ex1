@@ -1,0 +1,39 @@
+@use 'variables';
+
+.nutricao {
+    max-width: 650px;
+    width: 90%;
+    padding-bottom: 40px;
+
+    &__content {
+        .text {
+            color: variables.$corTextoIngredientes;
+        }
+        .table {
+            width: 100%;
+
+            &__item {
+
+                &__title,
+                &__value {
+                    border-bottom: 1.5px solid variables.$corBordaFundo;
+                    padding: 8px 0;
+                }
+
+                &__title {
+                    color: variables.$corTextoIngredientes;
+                    font-weight: 400;
+                    text-align: start;
+                    padding-left: 28px;
+                }
+
+                &__value {
+                    color: #79483E;
+                    font-weight: bold;
+                    padding-right: 20px;
+                    
+                }
+            }
+        }
+    }
+}

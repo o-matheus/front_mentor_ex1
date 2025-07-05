@@ -1,0 +1,25 @@
+@use 'variables';
+
+.preparacao {
+    background-color: variables.$corFundoPreparacao;
+    width: 650px;
+    border-radius: 15px;
+    &__content {
+        .title--small {
+            margin-left: 20px;
+        }
+        &__list {
+            &__item {
+                color: variables.$corTituloPequeno;
+                margin-left: 8px;
+                .text {
+                    color: #716765;
+                    margin-left: 24px;
+                }
+            }
+        }
+    }
+    @media (max-width: 375px) {
+        max-width: 90%;
+    }
+}

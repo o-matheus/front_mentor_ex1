@@ -1,0 +1,35 @@
+@use 'variables';
+
+.hero {
+    &__image {
+        max-width: 650px;
+        width: 100%;
+        border-radius: 5px;
+    }
+
+    &__content {
+        max-width: 650px;
+
+    }
+
+    @media (max-width: 375px) {
+        &__content {
+            text-align: center;
+            margin: 0 auto;
+
+            .title--big {
+                line-height: 32px;
+            }
+        }
+
+
+    }
+
+    @media (max-width: 375px) {
+        &__content {
+            max-width: 90%;
+
+        }
+    }
+
+}

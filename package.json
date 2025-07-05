@@ -15,7 +15,8 @@
   "type": "commonjs",
   "main": "index.js",
   "scripts": {
-    "build": "sass src/styles/main.scss build/main.css --watch",
+    "dev": "sass src/styles/main.scss build/main.css --watch",
+    "build": "sass src/styles/main.scss build/main.css",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "devDependencies": {
